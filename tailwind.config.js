@@ -5,8 +5,12 @@ module.exports = {
     extend: {
       height: {
         '100': '40rem'
+      },
+      margin: {
+        '13': '3.125rem'
       }
     },
+
   },
   variants: {
     extend: {},

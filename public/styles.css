@@ -3,3 +3,14 @@ body {
     background-color: rgba(55, 65, 81, var(--tw-bg-opacity));
    
 }
+
+.note {
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    width: 240px;
+    float:left;
+    /* margin-left:50px; */
+    margin-bottom: 10px;
+  }
