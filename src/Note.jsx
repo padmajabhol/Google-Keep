@@ -7,9 +7,9 @@ const Note = (props) => {
     }
     return <>
         <div className="note ml-13  ">
-            <h1>title</h1>
+            <h1>{props.title}</h1>
             <br />
-            <p>this is the content</p>
+            <p>{props.content}</p>
 
 
 
