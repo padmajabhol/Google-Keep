@@ -38,22 +38,27 @@ const CreateNote = (props) => {
     return <>
         {/* <div className="bg-gray-700 h-100"> */}
         <div>
-            <form className=" w-96  grid mx-auto">
-                <input value={note.title}
-                    name="title"
-                    // onChange={e => setNote({ ...note, title: e.target.value })}
-                    onChange={InputEvent}
-                    type="text"
-                    placeholder="Title"
-                    className="mt-5 h-10" autoComplete="off" />
-                <textarea
-                    rows=""
-                    column=""
-                    name="content"
-                    value={note.content}
-                    onChange={InputEvent}
-                    // onChange={e => setNote({ ...note, content: e.target.value })}
-                    className="h-20" rows="" column="" placeholder="write a note..." ></textarea>
+            <form className=" w-96  grid mx-auto mt-6">
+                <div className="w-96  grid mx-auto  px-3 pb-3 bg-white">
+
+                    <input value={note.title}
+                        name="title"
+                        // onChange={e => setNote({ ...note, title: e.target.value })}
+                        onChange={InputEvent}
+                        type="text"
+                        placeholder="Title"
+                        className="mt-5 h-10" autoComplete="off" />
+                    <textarea
+                        rows=""
+                        column=""
+                        name="content"
+                        value={note.content}
+                        onChange={InputEvent}
+                        // onChange={e => setNote({ ...note, content: e.target.value })}
+                        className="h-20" rows="" column="" placeholder="Write a note..." ></textarea>
+
+                </div>
+
 
 
                 <button className=" mt-2 w-1/6  rounded-full py-2 px-5 cursor-pointer  border-primary   hover:text-white transition ease-out d bg-yellow-400" onClick={addEvent}>
