@@ -6,7 +6,7 @@ const Note = (props) => {
         props.deleteItem(props.id);
     }
     return <>
-        <div className="note ml-13  ">
+        <div className="note ml-13 mt-4 ">
             <h1>{props.title}</h1>
             <br />
             <p>{props.content}</p>

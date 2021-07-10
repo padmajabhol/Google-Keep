@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       height: {
-        '100': '40rem'
+        '101': '40rem'
       },
       margin: {
         '13': '3.125rem'

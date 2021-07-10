@@ -47,7 +47,7 @@ const CreateNote = (props) => {
                         onChange={InputEvent}
                         type="text"
                         placeholder="Title"
-                        className="mt-5 h-10" autoComplete="off" />
+                        className="mt-5 h-10 focus:outline-none" autoComplete="off" />
                     <textarea
                         rows=""
                         column=""
@@ -55,7 +55,7 @@ const CreateNote = (props) => {
                         value={note.content}
                         onChange={InputEvent}
                         // onChange={e => setNote({ ...note, content: e.target.value })}
-                        className="h-20" rows="" column="" placeholder="Write a note..." ></textarea>
+                        className="h-20 focus:outline-none" rows="" column="" placeholder="Write a note..." ></textarea>
 
                 </div>
 
