@@ -15,11 +15,11 @@ This was made with using some basic concepts of reacts like useState hooks and p
 
   ##### Clone the repository
 ```bash
-git clone https://github.com/padmajabhol/namesuggest.git
+git clone https://github.com/padmajabhol/googlekeep.git
 ```
   ##### Move to the desired folder
 ```bash
-cd \namesuggest
+cd \googlekeep
 ```
   ##### To install the dependencies, simply write
 ```bash
