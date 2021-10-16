@@ -17,14 +17,19 @@ This was made with using some basic concepts of reacts like useState hooks and p
 ```bash
 git clone https://github.com/padmajabhol/googlekeep.git
 ```
+</br>
+
   ##### Move to the desired folder
 ```bash
 cd \googlekeep
 ```
+</br>
+
   ##### To install the dependencies, simply write
 ```bash
 npm install
 ```
+</br>
 
   ##### To run the app, simply write
 ```bash
